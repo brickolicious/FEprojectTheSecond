@@ -8,7 +8,7 @@
         //addSideScrollToTimeLine();
         $scope.conflicts = allConflicts;
         $scope.selectedConflict = allConflicts[allConflicts.length-1];
-        $scope.setHighlite = function(conf){ $scope.selectedConflict = conf;  }
+        $scope.setHighlight = function(conf){ $scope.selectedConflict = conf;  }
         $scope.tab = 1;
         $scope.selectTab = function (setTab){$scope.tab = setTab;};
         $scope.isSelected = function(checkTab) {return $scope.tab === checkTab;};
