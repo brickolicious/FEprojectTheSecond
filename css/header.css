@@ -1,0 +1,13 @@
+header {
+  background-color: pink;
+  height: 80px; }
+  header h1 {
+    float: left; }
+  header ul {
+    display: inline-block;
+    float: right; }
+    header ul li {
+      display: inline-block;
+      list-style: none; }
+
+/*# sourceMappingURL=header.css.map */

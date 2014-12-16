@@ -1,0 +1,48 @@
+#selectedItem{
+
+  background-color: grey;
+  padding: 15px;
+  color:white;
+  height: 85px;
+  h2{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  span{
+
+  }
+}
+
+
+#timeLine{
+  //background-color: pink;
+
+  ul{
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    list-style: none;
+
+    li{
+      text-align: right;
+      padding-right: 8px;
+      h3{
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    li:nth-child(odd){
+       background-color: lightgray;
+
+     }
+    li:nth-child(even){
+      background-color: white;
+      color:black
+    }
+  }
+
+}
+
