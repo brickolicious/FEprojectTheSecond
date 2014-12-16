@@ -18,15 +18,17 @@
   //background-color: pink;
 
   ul{
-    height: 70vh;
+    height: 50vh;
     overflow: hidden;
     overflow-y: scroll;
     white-space: nowrap;
     list-style: none;
 
+
     li{
       text-align: right;
       padding-right: 8px;
+      cursor:pointer;
       h3{
         font-size: 18px;
         padding: 0;

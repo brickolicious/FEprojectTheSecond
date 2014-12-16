@@ -1,7 +1,14 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+
 @import 'header';
 @import "timeline";
-@import "description";
 @import "details";
 @import "weapons";
 @import "skeleton.css";
 @import "normalize.css";
+@import "description";
+@import "map";

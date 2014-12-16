@@ -3,7 +3,7 @@
     <div class="row">
         <aside class="three columns">
             <section>
-                <input type="text" id="search" ng-model="filterString" ng-change="listFilter()"/>
+                <input type="text" placeholder="conflict name" id="search" ng-model="filterString" ng-change="listFilter()"/>
                 <span id="itemCount">Number of conflicts: {{conflicts.length}}</span>
             </section>
 
@@ -22,8 +22,58 @@
             <span id="copy">&copy Bart VDC - Roderik I</span>
         </aside>
         <article class="nine columns">
-            <img src="../images/{{selectedConflict.conflictImgName}}" alt="{{selectedConflict.conflictName}}"/>
-            <p>{{selectedConflict.conflictDescription}}</p>
+
+            <ul ng-init="tab=1" class="subnav">
+                <li ng-class="{active:tab === 1}">
+                    <a href ng-click="tab = 1">Description</a>
+                </li>
+                <li ng-class="{active:tab === 2}">
+                    <a href ng-click="tab = 2">Details</a>
+                </li>
+                <li ng-class="{active:tab === 3}">
+                    <a href ng-click="tab = 3">Weapons</a>
+                </li>
+            </ul>
+            <section id="description" ng-show="tab ===1">
+            <p>
+                <img src="../images/{{selectedConflict.conflictImgName}}" alt="{{selectedConflict.conflictName}}"/>
+                <span>{{selectedConflict.conflictStart.replace('-','/').replace('-','/')}}
+                -
+                    {{selectedConflict.conflictEnd.replace('-','/').replace('-','/')}}
+                </span>
+
+                <span>Wounded: {{selectedConflict.conflictWounded}}</span>
+                <span>Dead:    {{selectedConflict.conflictDead}}</span>
+
+                {{selectedConflict.conflictDescription}}
+            </p>
+
+            </section>
+
+            <section id="details" ng-show="tab ===2">
+                <h4>Involved countries:</h4>
+                <ul id=" countries">
+                    <li ng-repeat="country in selectedConflict.conflictCountries">{{country.countryName}}</li>
+                </ul>
+                <h4>Regime</h4>
+                <ul id="regimeDetails">
+                    <li>{{selectedConflict.conflictRegime.regimeName}}</li>
+                    <li>{{selectedConflict.conflictRegime.regimeLeader}}</li>
+                    <li>{{selectedConflict.conflictRegime.regimeDescription}}</li>
+                </ul>
+            </section>
+
+            <section id="weapons" ng-show="tab ===3">
+                <div class="weapon" ng-repeat="weapon in selectedConflict.conflictWeapons">
+                <h4>{{weapon.weaponName}}</h4>
+                    <span>Build year: {{weapon.weaponDeveloped|limitTo:4}} in {{weapon.weaponCountry.countryName}}</span>
+                    <p>
+                        <img scr="../images/{{weapon.weaponIMG}}" alt="{{weapon.weaponName}}"/>
+                        {{weapon.weaponDescription}}
+                    </p>
+                </div>
+            </section>
+
         </article>
     </div>
 
