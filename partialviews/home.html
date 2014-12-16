@@ -1,0 +1,78 @@
+<div class="container">
+
+    <article id="conflictCarrousel">
+        <section id="conflictTop">
+
+            <h2>{{selectedConflict.conflictName}}</h2>
+
+
+            <ul ng-init="tab=1" class="subnav">
+                <li ng-class="{active:tab === 1}">
+                    <a href ng-click="tab = 1">Description</a>
+                </li>
+                <li ng-class="{active:tab === 2}">
+                    <a href ng-click="tab = 2">Details</a>
+                </li>
+                <li ng-class="{active:tab === 3}">
+                    <a href ng-click="tab = 3">Weapons</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="description" ng-show="tab ===1">
+            <img src="../images/{{selectedConflict.conflictImgName}}">
+            <p>
+                <span>{{selectedConflict.conflictStart|date:'dd/MM/yyyy'}} - {{selectedConflict.conflictEnd|date:'dd/MM/yyyy'}}</span>
+                {{selectedConflict.conflictDescription}}
+            </p>
+        </section>
+
+        <section class="details" ng-show="tab ===2">
+            <div>
+
+                <h3>Victims: </h3>
+                <ul>
+                    <li>Dead: {{selectedConflict.conflictDead}}</li>
+                    <li>Wounded: {{selectedConflict.conflictWounded}}</li>
+                </ul>
+
+                <h3>Countries involved: </h3>
+                <ul>
+                    <li ng-repeat="country in selectedConflict.conflictCountries">{{country.countryName}}</li>
+                </ul>
+            </div>
+            <div>
+                <p>Regime: {{selectedConflict.conflictRegime.regimeName}} Leader: {{selectedConflict.conflictRegime.regimeLeader}}
+                    {{selectedConflict.conflictRegime.regimeDescription}}
+                </p>
+            </div>
+        </section>
+
+        <section class="weapons" ng-show="tab ===3">
+
+            <div class="weapon" ng-repeat="weapon in selectedConflict.conflictWeapons">
+                <h3>{{weapon.weaponName}}</h3>
+                <img src="../images/{{weapon.weaponIMG}}.jpg"/>
+                <p>{{weapon.weaponDescription}}</p>
+                <span>Made in {{weapon.weaponCountry.countryName}} starting {{weapon.weaponDeveloped|limitTo:4}}</span>
+            </div>
+
+        </section>
+    </article>
+
+
+    <section id="timeLine" ng-init="scrollInit()">
+        <div class="tlNav" id="tlBack"><</div>
+        <ul>
+            <li style="" ng-repeat="conflict in conflicts" >
+                <span ng-click="setHighlite(conflict)">
+                    <p>{{conflict.conflictStart|limitTo:4}} - {{conflict.conflictEnd|limitTo:4}}</p>
+                    <h3>{{conflict.conflictName}}</h3>
+                </span>
+            </li>
+        </ul>
+        <div class="tlNav" id="tlForward">></div>
+    </section>
+
+</div>
+<script type="text/javascript" src="../myscripts/scrolling.js"></script>

@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2F2F2;
+  font-family: 'PT Sans', sans-serif;
+  height: 100%;
+  overflow: hidden; }
+
+@font-face {
+  font-family: conflicts;
+  src: url(conflicts.woff); }
+header {
+  background-color: #402E2C;
+  height: 50px;
+  padding: 0px; }
+  header h1 {
+    display: inline;
+    margin-left: 15px;
+    color: #F2D399; }
+
+#mainNav {
+  float: right;
+  margin: 0;
+  padding: 0; }
+  #mainNav ul {
+    list-style: none; }
+  #mainNav li {
+    display: inline-block; }
+    #mainNav li a {
+      text-decoration: none;
+      color: #F2D399;
+      font-size: 18px;
+      font-family: conflicts; }
+      #mainNav li a span {
+        font-family: 'PT Sans'; }
+  #mainNav li:hover {
+    background-color: #523b39; }
+  #mainNav img {
+    height: 18px;
+    width: 18px; }
+
+.container {
+  height: 100%; }
+
+#timeLine {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  display: block;
+  background-color: #F2D399;
+  max-height: 120px;
+  overflow: hidden;
+  overflow-x: scroll; }
+  #timeLine ul {
+    white-space: nowrap;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center; }
+  #timeLine li {
+    background: url("http://www.madeinebor.com/kyte/wp-content/uploads/2013/09/icon-flag.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: center center;
+    width: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer; }
+
+img {
+  max-height: 300px;
+  display: inline; }
+
+.tlNav {
+  display: block;
+  height: 100px;
+  width: 20px;
+  background-color: #523b39;
+  color: #FFF;
+  position: fixed;
+  z-index: 300000;
+  bottom: 0px;
+  float: left; }
+
+#tlBack {
+  left: 0px; }
+
+#tlForward {
+  right: 0px; }
+
+/*# sourceMappingURL=mainStyle.css.map */

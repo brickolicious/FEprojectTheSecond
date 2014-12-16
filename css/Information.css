@@ -1,0 +1,88 @@
+/**
+ * Created by Roderik on 15/12/2014.
+ */
+#conflictTop {
+  height: 40px;
+  background-color: #402E2C;
+  color: white; }
+  #conflictTop h2 {
+    float: left;
+    /*span{
+      margin-left: 25px;
+      font-size: 14px;
+    }*/ }
+  #conflictTop ul {
+    list-style: none;
+    float: right; }
+    #conflictTop ul li {
+      margin-right: 50px;
+      list-style-type: none;
+      display: inline-block; }
+      #conflictTop ul li a {
+        color: #FFF;
+        text-decoration: none; }
+      #conflictTop ul li a:hover {
+        font-weight: bold; }
+
+.description {
+  min-height: 60vh;
+  padding: 40px 0 0 40px; }
+  .description img {
+    min-width: 40%;
+    max-width: 40%;
+    display: inline-block;
+    float: left; }
+  .description p {
+    margin-right: 45px;
+    width: 55%;
+    display: inline-block;
+    float: right; }
+    .description p span {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 20px; }
+
+.details {
+  margin: 0px;
+  padding: 0px; }
+  .details * {
+    border: 1px black solid; }
+  .details ul {
+    display: inline-block;
+    list-style-type: none; }
+  .details > div:nth-child(odd) {
+    float: left;
+    max-width: 30%; }
+  .details > div:nth-child(even) {
+    min-width: 50%;
+    max-width: 50%;
+    float: left; }
+
+#conflictCarrousel {
+  background-color: lightyellow;
+  height: calc(100% - 95px);
+  width: 90%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 350px; }
+  #conflictCarrousel h2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: inline-block; }
+  #conflictCarrousel > .description ul {
+    float: right; }
+  #conflictCarrousel > .description li {
+    margin-right: 50px;
+    display: inline-block;
+    list-style: none-block; }
+
+.conflict {
+  width: 400px;
+  background-color: lightgreen;
+  float: left;
+  margin-right: 25px; }
+  .conflict h2 {
+    text-align: center; }
+
+/*# sourceMappingURL=Information.css.map */

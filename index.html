@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>conflicts</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="./images/icons/map.ico"/>
+    <link href="./css/mainStyle.css"  rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="./css/map.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/Information.css"/>
+
+    <script src="./scripts/modernizr-2.7.2.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Wars</h1>
+<nav id="mainNav">
+    <ul>
+        <li><a href="#/home">&#xe801 <span>Information</span></a></li>
+        <li><a href="#/map">&#xe800 <span>Map</span></a></li>
+    </ul>
+</nav>
+</header>
+
+<div ng-view></div>
+
+
+<script type="application/javascript" src="./scripts/angular.min.js"></script>
+<script type="application/javascript" src="./scripts/ui-bootstrap-tpls-0.12.0.min.js"></script>
+<script type="application/javascript" src="./scripts/angular-route.js"></script>
+<script type="application/javascript" src="./src/app.js"></script>
+<script type="application/javascript" src="./src/controllers/HomeController.js"></script>
+<script type="application/javascript" src="./src/controllers/MapController.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASciXhqm7nvI67EPjHUhklRDBjdWix8oA"></script>
+<!--<script type="text/javascript" src="./scripts/maps.js"></script>-->
+</body>
+</html>
