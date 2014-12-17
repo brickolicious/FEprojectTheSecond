@@ -60,6 +60,12 @@ header {
 #details #regimeDetails {
   list-style: none; }
 
+#countries li {
+  display: inline-block;
+  margin-right: 8px; }
+#countries li::first-letter {
+  font-weight: bold; }
+
 #weapons h4 {
   font-size: 18px;
   font-weight: bold; }
@@ -104,6 +110,24 @@ header {
 
 #map-canvas {
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+#yearCounter {
+  background-color: white;
+  color: #800080;
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  text-align: center; }
+  #yearCounter #play {
+    display: block; }
+  #yearCounter #year {
+    font-weight: bold;
+    font-size: 18px; }
+  #yearCounter label {
+    font-size: 11px; }
 
 /*# sourceMappingURL=style.css.map */

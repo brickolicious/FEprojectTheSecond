@@ -11,3 +11,14 @@
 
 
 }
+
+#countries{
+  li{
+
+    display: inline-block;
+    margin-right: 8px;
+  }
+  li::first-letter{
+    font-weight: bold;
+  }
+}

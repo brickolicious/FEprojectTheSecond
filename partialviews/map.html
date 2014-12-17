@@ -1,5 +1,11 @@
 <div class="container">
 	<!--<h2>World map {{bla}}</h2>-->
+    <section id="yearCounter">
+        <span id="year">{{yearcount}}</span>
+        <label>Speed: {{speedSlider}}ms</label>
+        <input type="range" min="50" max="1000" ng-model="speedSlider" title="play speed"/>
+        <button id="play" ng-click="start()">Start</button>
+    </section>
         <div id="map-canvas"></div>
 </div>
 

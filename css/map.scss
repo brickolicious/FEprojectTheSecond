@@ -1,4 +1,31 @@
 #map-canvas{
   height: 100vh;
   width: 100vw;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+#yearCounter{
+  background-color: white;
+  color:#800080;
+
+  position:fixed;
+  top:100px;
+  left: 50px;
+
+  text-align: center;
+
+  #play{
+    display: block;
+  }
+
+  #year{
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  label{
+    font-size: 11px;
+  }
 }

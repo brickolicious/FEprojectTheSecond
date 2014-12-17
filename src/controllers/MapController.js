@@ -1,10 +1,21 @@
 (function(){
-
+    var year;
     var MapController = function($scope,$html){
     	var map;
     	initialize();
-        $scope.bla = "blaaaa";
 
+        $scope.yearcount = 0000;
+        $scope.speedSlider = 500;
+        $scope.start = function(){
+            $scope.yearcount = 1990;
+            year = setInterval(function(){
+                if($scope.yearcount < 2015){
+                    $scope.yearcount++;
+                    $scope.$apply();
+                    console.log($scope.yearcount);
+                }else{clearInterval(year);}
+            },$scope.speedSlider);
+        }
 
     };
     var app = angular.module("app");
