@@ -4,6 +4,13 @@
   padding: 0;
   margin: 0; }
 
+body {
+  background: url("../images/bg2.jpg") repeat; }
+
+h2 {
+  font-weight: bold;
+  color: #071E28; }
+
 @font-face {
   font-family: conflicts;
   src: url(conflicts.woff); }
@@ -26,7 +33,7 @@ header {
         color: black; }
 
 #selectedItem {
-  background-color: grey;
+  background-color: #D8CAAB;
   padding: 15px;
   color: white;
   height: 85px; }
@@ -35,23 +42,22 @@ header {
     font-weight: bold; }
 
 #timeLine ul {
-  height: 50vh;
-  overflow: hidden;
-  overflow-y: scroll;
   white-space: nowrap;
-  list-style: none; }
+  list-style: none;
+  background-color: #fdfaf3; }
   #timeLine ul li {
-    text-align: right;
-    padding-right: 8px;
+    text-align: left;
     cursor: pointer; }
     #timeLine ul li h3 {
       font-size: 18px;
       padding: 0;
       margin: 0; }
   #timeLine ul li:nth-child(odd) {
-    background-color: lightgray; }
+    background-color: #fdfaf3; }
   #timeLine ul li:nth-child(even) {
-    background-color: white;
+    background-color: #eeebe4;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: black; }
 
 #details h4 {
@@ -110,7 +116,7 @@ header {
 
 #map-canvas {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0; }
@@ -118,16 +124,36 @@ header {
 #yearCounter {
   background-color: white;
   color: #800080;
-  position: fixed;
-  top: 100px;
-  left: 50px;
   text-align: center; }
   #yearCounter #play {
-    display: block; }
+    display: inline;
+    margin: auto 0 auto 0; }
   #yearCounter #year {
     font-weight: bold;
     font-size: 18px; }
   #yearCounter label {
     font-size: 11px; }
+
+.scrollbar {
+  float: left;
+  height: 450px;
+  width: 100%;
+  background: #F5F5F5;
+  overflow-y: scroll;
+  margin-bottom: 15px; }
+
+#scrollStyle::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+  background-color: #F5F5F5; }
+
+#scrollStyle::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5; }
+
+#scrollStyle::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #555; }
 
 /*# sourceMappingURL=style.css.map */

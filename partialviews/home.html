@@ -2,22 +2,26 @@
 
     <div class="row">
         <aside class="three columns">
-            <section>
-                <input type="text" placeholder="conflict name" id="search" ng-model="filterString" ng-change="listFilter()"/>
-                <span id="itemCount">Number of conflicts: {{conflicts.length}}</span>
-            </section>
+            <div class="row">
+                <section>
+                    <input type="text" placeholder="Search conflict" id="search" ng-model="filterString" ng-change="listFilter()"/>
+                    <span id="itemCount">Number of conflicts: {{conflicts.length}}</span>
+                </section>
 
-            <section id="selectedItem">
-                <h2>{{selectedConflict.conflictName}}</h2>
-                <span>{{selectedConflict.conflictStart | limitTo:4}} - {{selectedConflict.conflictEnd | limitTo:4}}</span>
-            </section>
-            <div id="timeLine">
-                <ul>
-                    <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)">
-                        <h3>{{conflict.conflictName}}</h3>
-                        <span>{{conflict.conflictStart | limitTo:4}} - {{conflict.conflictEnd | limitTo:4}}</span>
-                    </li>
-                </ul>
+                <section id="selectedItem">
+                    <h2>{{selectedConflict.conflictName}}</h2>
+                    <span>{{selectedConflict.conflictStart | limitTo:4}} - {{selectedConflict.conflictEnd | limitTo:4}}</span>
+                </section>
+                <div  class="scrollbar" id="scrollStyle">
+                <div id="timeLine">
+                    <ul>
+                        <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)">
+                            <h3>{{conflict.conflictName}}</h3>
+                            <span>{{conflict.conflictStart | limitTo:4}} - {{conflict.conflictEnd | limitTo:4}}</span>
+                        </li>
+                    </ul>
+                </div>
+                </div>
             </div>
             <span id="copy">&copy Bart VDC - Roderik I</span>
         </aside>
