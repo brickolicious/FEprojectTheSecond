@@ -12,7 +12,7 @@
                 if($scope.yearcount < 2015){
                     $scope.yearcount++;
                     $scope.$apply();
-                    console.log($scope.yearcount);
+                    //console.log($scope.yearcount);
                 }else{clearInterval(year);}
             },$scope.speedSlider);
         }
@@ -22,8 +22,6 @@
     app.controller("MapController",["$scope","$http","$log",MapController]);
 
 })();
-
-
 
 function initialize() {
     var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
