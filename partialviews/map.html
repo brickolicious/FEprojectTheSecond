@@ -5,12 +5,12 @@
 
                 <section class="one-third column" id="year"><span>{{yearcount}}</span></section>
 
-                <section class="one-third column">
+                <section class="one-third column" id="controls">
                 <label>Speed: {{speedSlider}}ms</label>
                 <input type="range" min="50" max="1000" ng-model="speedSlider" title="play speed"/>
                 </section>
 
-                <section id="play" class="one-third column">
+                <section class="one-third column" id="play" >
                 <button  ng-click="start()"> >Start</button>
                 </section>
 

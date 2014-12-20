@@ -155,15 +155,6 @@ header {
   color: #800080; }
   #yearCounter section {
     height: 50px; }
-  #yearCounter #play {
-    float: left; }
-    #yearCounter #play button {
-      display: block;
-      background-color: #800080;
-      color: white;
-      height: 100%;
-      width: 100%;
-      font-weight: bold; }
   #yearCounter #year {
     height: 100%;
     float: left;
@@ -173,8 +164,19 @@ header {
     color: white;
     font-weight: bolder;
     text-align: center; }
-  #yearCounter label {
-    font-size: 11px; }
+  #yearCounter #controls {
+    width: 80px; }
+    #yearCounter #controls label {
+      font-size: 11px; }
+  #yearCounter #play {
+    float: right; }
+    #yearCounter #play button {
+      display: block;
+      background-color: #800080;
+      color: white;
+      height: 100%;
+      width: 100%;
+      font-weight: bold; }
 
 .scrollbar {
   float: left;
