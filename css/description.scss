@@ -12,25 +12,40 @@
 
 }
 
+#information{
+  background-color: rgba(216,202,171,0.2);
+  img{
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+
+
 
 .subnav{
-  float: right;
-  text-align: center;
+  //float: right;
   width: 100%;
+  padding:20px 0 20px 0;
+  margin: 0 auto;
+  text-align: justify;
   li{
+    width: 32.9%;
+    float:left;
     display: inline-block;
-    list-style: none;
-    margin: 0 60px 0 60px;
+    position: relative;
+    text-align: center;
+
     a{
       color:black;
       text-decoration: none;
-      border-bottom: 1px solid black;
+      font-weight: bold;
       padding: 10px;
     }
 
     a:hover{
-      color:white;
-      background:darkslategrey;
+      color:#071E28;
+      background: rgba(120,120,120,0.3);
     }
   }
 }

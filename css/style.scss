@@ -1,3 +1,9 @@
+//FONTS
+@font-face {
+  font-family: conflicts;
+  src: url(conflicts.woff);
+}
+
 *{
   padding:0;
   margin: 0;
@@ -10,6 +16,22 @@ body{
 h2{
   font-weight: bold;
   color:#071E28;
+}
+
+#mainNav{
+  ul{
+    padding-top: 20px;
+    li{
+      font-family: conflicts;
+      span{
+        font-family: 'PT sans';
+      }
+      :hover{
+        color: #071E28;
+        font-weight: bold;
+      }
+    }
+  }
 }
 
 
