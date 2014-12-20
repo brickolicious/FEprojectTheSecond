@@ -1,0 +1,948 @@
+[
+  {
+    "conflictID": 3,
+    "conflictName": "World War II",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1939-09-01",
+    "conflictEnd": "1945-09-02",
+    "conflictDescription": "The war in Europe began in September 1939, when Germany, under Chancellor Adolf Hitler, invaded Poland. Britain and France responded by declaring war on Germany but took little action over the following months. In 1940, Germany launched its next initiative by attacking Denmark and Norway, followed shortly thereafter by attacks on Belgium, the Netherlands, and France. All of these nations were conquered rapidly.",
+    "conflictDead": 73000000,
+    "conflictWounded": 26540408,
+    "conflictImgName": "ww2.jpg",
+    "conflictRegime": {
+      "regimeID": 1,
+      "regimeName": "Nazi Germany",
+      "regimeLeader": "Adolf Hitler",
+      "regimeDescription": "Nazi Germany and the Third Reich are common names for Germany during the period from 1933 to 1945, when its government was controlled by Adolf Hitler and his National Socialist German Workers Party (NSDAP), commonly known as the Nazi Party. Under Hitler s rule, Germany was transformed into a fascist totalitarian state which controlled nearly all aspects of life. Nazi Germany ceased to exist after the Allied Forces defeated Germany in May 1945, ending World War II in Europe."
+    },
+    "conflictType": {
+      "typeID": 10,
+      "typeName": "War of succession"
+    },
+    "conflictCountries": [],
+    "conflictWeapons": []
+  },
+  {
+    "conflictID": 2,
+    "conflictName": "Anti-Rightist Movement",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1957-01-01",
+    "conflictEnd": "1959-01-01",
+    "conflictDescription": "People who had been critical of his regime and ideology were labeled rightists and were persecuted. Many believe that the whole purpose of the Hundred Flowers Movement was to flush out dissidents. Mao himself even said that he had, enticed the snakes out of their caves. About half a million intellectuals, students, officials, artists, and dissidents were persecuted by being imprisoned or sent to labor camps.",
+    "conflictDead": 0,
+    "conflictWounded": 550000,
+    "conflictImgName": "arm.jpg",
+    "conflictRegime": {
+      "regimeID": 2,
+      "regimeName": "Communist Party of China",
+      "regimeLeader": "Mao Zedong",
+      "regimeDescription": "The Hundred Flowers Campaign was a period during which the Communist Party of China encouraged its citizens to openly express their opinions of the communist regime. Differing views and solutions to national policy were encouraged based on the famous expression by Mao Zedong: The policy of letting a hundred flowers bloom and a hundred schools of thought contend is designed to promote the flourishing of the arts and the progress of science. Therafter Mao abruptly changed course. The crackdown continued as an Anti-Rightist Campaign against those who were critical of the regime and its ideology. Those targeted were publicly criticized, condemned to prison labor camps and in many cases executed."
+    },
+    "conflictType": {
+      "typeID": 10,
+      "typeName": "War of succession"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 46,
+        "countryName": "China"
+      }
+    ],
+    "conflictWeapons": []
+  },
+  {
+    "conflictID": 4,
+    "conflictName": "Spanish Glorious Revolution",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1868-09-19",
+    "conflictEnd": "1868-09-27",
+    "conflictDescription": "In 1833, the death of Fernando VII had brought three-year-old Isabel II to the throne. As time passed, it became clear that Isabel, who had been forcibly married to homosexual Francisco de Asis, had no interest in politics, being influenced by many people and allowing many coups and countercoups to happen, which meant that political life came to be dominated by military men, which, during most of the decades of 1850 and 1860, meant the Moderate Party and Ramon Maria Narvaez, which further isolated Isabel II from the realities of life and of the Spanish liberal movement that had supported her when she was a child.",
+    "conflictDead": 1500,
+    "conflictWounded": 0,
+    "conflictImgName": "spanishgloriousrevolution.jpg",
+    "conflictRegime": {
+      "regimeID": 3,
+      "regimeName": "Monarchy",
+      "regimeLeader": "Queen Isabella II",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 209,
+        "countryName": "Spain"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 3,
+        "weaponName": "Broadsword",
+        "weaponDeveloped": "1545-01-01",
+        "weaponDescription": "The basket hilt is a development of the quillons added to swords crossguards since the Late Middle Ages. Also known as the broadsword.",
+        "weaponIMG": "broadsword",
+        "weaponCountry": {
+          "countryID": 236,
+          "countryName": "United Kingdom"
+        }
+      },
+      {
+        "weaponID": 4,
+        "weaponName": "Lochaber axe",
+        "weaponDeveloped": "1570-01-01",
+        "weaponDescription": "The Lochaber axe is a type of halberd. The axe itself is similar to tools used with crops, such as the scythe, which is designed for reaping.",
+        "weaponIMG": "lochaber",
+        "weaponCountry": {
+          "countryID": 236,
+          "countryName": "United Kingdom"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 5,
+    "conflictName": "World War I",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1914-07-28",
+    "conflictEnd": "1918-11-11",
+    "conflictDescription": "Following the assassination of Archduke Franz Ferdinand of Austria-Hungary on 28 June 1914, Wilhelm and his Chancellor, Theobald von Bethmann-Hollweg, incited Austria-Hungary to exact revenge against Serbia.  Events spiralled throughout July resulting in the First World War (click here to read Wilhelm's views of the Austro-Hungarian ultimatum).  Wilhelm appeared not to foresee the consequences of an Austro-Hungarian attack on Serbia, pulling France, Russia and Britain into the war.  Too late he attempted to scale back German involvement: he was firmly dissuaded by the German military.",
+    "conflictDead": 9911000,
+    "conflictWounded": 21219500,
+    "conflictImgName": "ww1.jpg",
+    "conflictRegime": {
+      "regimeID": 5,
+      "regimeName": "Monarch Prussia",
+      "regimeLeader": "Wilhelm II",
+      "regimeDescription": "Following the assassination of Archduke Franz Ferdinand of Austria-Hungary on 28 June 1914, Wilhelm and his Chancellor, Theobald von Bethmann-Hollweg, incited Austria-Hungary to exact revenge against Serbia.  Events spiralled throughout July resulting in the First World War (click here to read Wilhelm his views of the Austro-Hungarian ultimatum).  Wilhelm appeared not to foresee the consequences of an Austro-Hungarian attack on Serbia, pulling France, Russia and Britain into the war.  Too late he attempted to scale back German involvement: he was firmly dissuaded by the German military.  (Click here to read Wilhelm his account of the events of July 1914.)"
+    },
+    "conflictType": {
+      "typeID": 7,
+      "typeName": "Invasion"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 5,
+        "countryName": "Andorra"
+      },
+      {
+        "countryID": 11,
+        "countryName": "Armenia"
+      },
+      {
+        "countryID": 23,
+        "countryName": "Belgium"
+      },
+      {
+        "countryID": 32,
+        "countryName": "Brazil"
+      },
+      {
+        "countryID": 46,
+        "countryName": "China"
+      },
+      {
+        "countryID": 54,
+        "countryName": "Costa Rica"
+      },
+      {
+        "countryID": 57,
+        "countryName": "Cuba"
+      },
+      {
+        "countryID": 60,
+        "countryName": "Czech Republic"
+      },
+      {
+        "countryID": 203,
+        "countryName": "Slovakia"
+      },
+      {
+        "countryID": 77,
+        "countryName": "France"
+      },
+      {
+        "countryID": 88,
+        "countryName": "Greece"
+      },
+      {
+        "countryID": 94,
+        "countryName": "Guatemala"
+      },
+      {
+        "countryID": 98,
+        "countryName": "Haiti"
+      },
+      {
+        "countryID": 100,
+        "countryName": "Honduras"
+      },
+      {
+        "countryID": 111,
+        "countryName": "Italy"
+      },
+      {
+        "countryID": 113,
+        "countryName": "Japan"
+      },
+      {
+        "countryID": 119,
+        "countryName": "Korea, North"
+      },
+      {
+        "countryID": 120,
+        "countryName": "Korea, South"
+      },
+      {
+        "countryID": 218,
+        "countryName": "Taiwan"
+      },
+      {
+        "countryID": 128,
+        "countryName": "Liberia"
+      },
+      {
+        "countryID": 151,
+        "countryName": "Montenegro"
+      },
+      {
+        "countryID": 158,
+        "countryName": "Nepal"
+      },
+      {
+        "countryID": 163,
+        "countryName": "Nicaragua"
+      },
+      {
+        "countryID": 174,
+        "countryName": "Panama"
+      },
+      {
+        "countryID": 181,
+        "countryName": "Portugal"
+      },
+      {
+        "countryID": 185,
+        "countryName": "Romania"
+      },
+      {
+        "countryID": 186,
+        "countryName": "Russia"
+      },
+      {
+        "countryID": 187,
+        "countryName": "Russia"
+      },
+      {
+        "countryID": 199,
+        "countryName": "Serbia and Montenegro"
+      },
+      {
+        "countryID": 221,
+        "countryName": "Thailand"
+      },
+      {
+        "countryID": 236,
+        "countryName": "United Kingdom"
+      },
+      {
+        "countryID": 40,
+        "countryName": "Canada"
+      },
+      {
+        "countryID": 33,
+        "countryName": "British Indian Ocean Territory"
+      },
+      {
+        "countryID": 14,
+        "countryName": "Australia"
+      },
+      {
+        "countryID": 162,
+        "countryName": "New Zealand"
+      },
+      {
+        "countryID": 140,
+        "countryName": "Malta"
+      },
+      {
+        "countryID": 207,
+        "countryName": "South Africa"
+      },
+      {
+        "countryID": 251,
+        "countryName": "Zambia"
+      },
+      {
+        "countryID": 251,
+        "countryName": "Zambia"
+      },
+      {
+        "countryID": 178,
+        "countryName": "Philippines"
+      }
+    ],
+    "conflictWeapons": []
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword.jpg",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  },
+  {
+    "conflictID": 1,
+    "conflictName": "American Civil War",
+    "conflictLocation": {
+      "long": 0,
+      "lat": 0
+    },
+    "conflictStart": "1861-04-12",
+    "conflictEnd": "1865-05-09",
+    "conflictDescription": "The American Civil War was fought from 1861 to 1865. Seven Southern slave states individually declared their secession from the United States and formed the Confederate States of America, known as the Confederacy or the South. They grew to include eleven states, and although they claimed thirteen states and additional western territories, the Confederacy was never recognized by a foreign country. The states that did not declare secession were known as the Union or the North. The war had its origin in the fractious issue of slavery, especially the extension of slavery into the western territories. After four years of bloody combat that left over 600,000 Union and Confederate soldiers dead, and destroyed much of the South's infrastructure, the Confederacy collapsed, slavery was abolished, and the difficult Reconstruction process of restoring national unity and guaranteeing civil rights to the freed slaves began.",
+    "conflictDead": 625000,
+    "conflictWounded": 410000,
+    "conflictImgName": "americancivilwar.jpg",
+    "conflictRegime": {
+      "regimeID": 4,
+      "regimeName": "Democracy",
+      "regimeLeader": "James Buchanan",
+      "regimeDescription": null
+    },
+    "conflictType": {
+      "typeID": 1,
+      "typeName": "Civil War"
+    },
+    "conflictCountries": [
+      {
+        "countryID": 237,
+        "countryName": "United States"
+      }
+    ],
+    "conflictWeapons": [
+      {
+        "weaponID": 1,
+        "weaponName": "M1860 Cutlass",
+        "weaponDeveloped": "1860-01-01",
+        "weaponDescription": "Issued to naval boarding parties. Sailors als",
+        "weaponIMG": "cutlass",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      },
+      {
+        "weaponID": 2,
+        "weaponName": "Model 1832 Foot Artillery Sword",
+        "weaponDeveloped": "1832-01-01",
+        "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
+        "weaponIMG": "1832sword",
+        "weaponCountry": {
+          "countryID": 237,
+          "countryName": "United States"
+        }
+      }
+    ]
+  }
+]

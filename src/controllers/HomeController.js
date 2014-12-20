@@ -40,11 +40,7 @@ function getConflictsJSON(){
 	var conflicts = JSON.parse(xmlhttp.responseText);
 
 	conflicts.sort(compare);
-
 	return conflicts;
-
-
-
 }
 
 function compare(a,b) {
@@ -67,4 +63,5 @@ function filterConflicts(confArr,keyword){
     return filteredArr;
 
 }
+
 
