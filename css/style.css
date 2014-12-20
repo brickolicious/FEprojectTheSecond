@@ -31,7 +31,7 @@ header {
   background-color: white;
   height: 60px;
   border-bottom: 2px solid black;
-  margin-bottom: 15px; }
+  margin-bottom: 0px; }
   header h1 {
     float: left; }
   header ul {
@@ -144,21 +144,35 @@ header {
 
 #map-canvas {
   height: 100vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0; }
+  width: 100%; }
 
 #yearCounter {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   background-color: white;
-  color: #800080;
-  text-align: center; }
+  color: #800080; }
+  #yearCounter section {
+    height: 50px; }
   #yearCounter #play {
-    display: inline;
-    margin: auto 0 auto 0; }
+    float: left; }
+    #yearCounter #play button {
+      display: block;
+      background-color: #800080;
+      color: white;
+      height: 100%;
+      width: 100%;
+      font-weight: bold; }
   #yearCounter #year {
-    font-weight: bold;
-    font-size: 18px; }
+    height: 100%;
+    float: left;
+    padding-top: 6px;
+    font-size: 24px;
+    background-color: #800080;
+    color: white;
+    font-weight: bolder;
+    text-align: center; }
   #yearCounter label {
     font-size: 11px; }
 

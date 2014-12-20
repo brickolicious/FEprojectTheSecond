@@ -90,7 +90,7 @@ function createMarkers(){
 
         var heatMarker = {
             location:new google.maps.LatLng(data[i].conflictLocation.lat, data[i].conflictLocation.lat),
-            weight:3
+            weight:20
         }
 
         var point = {
