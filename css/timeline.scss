@@ -50,3 +50,13 @@
   }
 
 }
+
+//additional MEDIAQUERIES
+@media (max-width: 550px) {
+  #copy{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+  }
+}
