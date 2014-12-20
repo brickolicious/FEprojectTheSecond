@@ -61,6 +61,9 @@ function initialize() {
 
         marker.setMap(map);
         nsMap.map =  map;
+        nsMap.data = new google.maps.MVCArray();
+        nsMap.heatmap = new google.maps.visualization.HeatmapLayer({data:nsMap.data});
+        nsMap.heatmap.setMap(nsMap.map);
     };
 
 }
@@ -80,16 +83,21 @@ function createMarkers(){
 
 
     for(i;i<length;i++){
-        var marker = new google.maps.Marker({
+        /*var marker = new google.maps.Marker({
             position: new google.maps.LatLng(data[i].conflictLocation.lat, data[i].conflictLocation.lat),
             title: data[i].conflictName
-        });
+        });*/
+
+        var heatMarker = {
+            location:new google.maps.LatLng(data[i].conflictLocation.lat, data[i].conflictLocation.lat),
+            weight:3
+        }
 
         var point = {
 
             confStart: new Date(data[i].conflictStart).getFullYear(),
             confEnd: new Date(data[i].conflictEnd).getFullYear(),
-            confLocation:marker
+            confLocation:heatMarker
 
         };
         heatMapMarkerArr.push(point);
@@ -109,19 +117,15 @@ function createMarkers(){
 function setPointsOnMap(runningYear,markers){
     var i= 0,length=markers.length;
 
+    nsMap.data.clear();
     for(i;i<length;i++){
 
         if(runningYear >= markers[i].confStart){
             if(runningYear <= markers[i].confEnd){
-                markers[i].confLocation.setMap(nsMap.map);
+                nsMap.data.push(markers[i].confLocation);
 
-            }else{
-                markers[i].confLocation.setMap(null);
             }
-        }else{
-            markers[i].confLocation.setMap(null);
-        }
 
-    }
+    }}
 
 }
