@@ -146,17 +146,29 @@ header {
   height: 100vh;
   width: 100%; }
 
-#yearCounter {
-  height: 50px;
+.one-third {
   margin: 0;
-  padding: 0;
+  padding: 0; }
+
+.column {
+  margin: 0;
+  padding: 0; }
+
+article {
+  margin: 0;
+  padding: 0; }
+
+#yearCounter {
+  text-align: center;
   width: 100%;
   background-color: white;
-  color: #800080; }
+  color: #800080;
+  align-items: center; }
   #yearCounter section {
-    height: 50px; }
+    height: 60px; }
   #yearCounter #year {
-    height: 100%;
+    width: 200px;
+    min-height: 50px;
     float: left;
     padding-top: 6px;
     font-size: 24px;
@@ -165,18 +177,28 @@ header {
     font-weight: bolder;
     text-align: center; }
   #yearCounter #controls {
-    width: 80px; }
+    width: calc(100% - 400px); }
+    #yearCounter #controls span {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: inline-block;
+      text-align: center; }
+      #yearCounter #controls span input[type=range] {
+        width: 100%; }
     #yearCounter #controls label {
       font-size: 11px; }
   #yearCounter #play {
+    width: 200px;
+    height: 100%;
     float: right; }
     #yearCounter #play button {
-      display: block;
       background-color: #800080;
       color: white;
-      height: 100%;
+      height: 60px;
       width: 100%;
-      font-weight: bold; }
+      font-weight: bold;
+      border: none;
+      border-radius: 0px; }
 
 .scrollbar {
   float: left;

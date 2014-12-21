@@ -6,8 +6,17 @@
                 <section class="one-third column" id="year"><span>{{yearcount}}</span></section>
 
                 <section class="one-third column" id="controls">
+
+                <span>
                 <label>Speed: {{speedSlider}}ms</label>
                 <input type="range" min="50" max="1000" ng-model="speedSlider" title="play speed"/>
+                </span>
+
+                <span>
+                <label>Year: {{yearcount}}</label>
+                <input type="range" min="{{earliestConflictYear-5}}" max="2100" ng-model="yearcount" title="set start year"/>
+                </span>
+
                 </section>
 
                 <section class="one-third column" id="play" >

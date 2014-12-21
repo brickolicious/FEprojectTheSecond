@@ -9,12 +9,13 @@ var nsMap = {};
 
         initialize();
         var markers = createMarkers();
-
-
         $scope.yearcount = markers.startConflict;
         $scope.speedSlider = 500;
+        $scope.earliestConflictYear = markers.startConflict;
+        //$scope.setStartYear = function(sYear){ console.log('Tetjes: '+sYear);  $scope.yearCount = sYear; };
+
         $scope.start = function(){
-            $scope.yearcount = markers.startConflict;
+            //$scope.yearcount = markers.startConflict;
 
             year = setInterval(function(){
                 if($scope.yearcount < currentYear){
@@ -45,7 +46,7 @@ function initialize() {
 
         myLatlng = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
         var mapOptions = {
-            zoom: 3,
+            zoom: 2,
             center: myLatlng,
             mapTypeControlOptions: {
                 mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
@@ -83,14 +84,11 @@ function createMarkers(){
 
 
     for(i;i<length;i++){
-        /*var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(data[i].conflictLocation.lat, data[i].conflictLocation.lat),
-            title: data[i].conflictName
-        });*/
 
         var heatMarker = {
             location:new google.maps.LatLng(data[i].conflictLocation.lat, data[i].conflictLocation.lat),
-            weight:20
+            weight:2
+
         }
 
         var point = {
@@ -102,7 +100,7 @@ function createMarkers(){
         };
         heatMapMarkerArr.push(point);
 
-        confstartYear = new Date(data[i].conflictStart).getFullYear()
+        confstartYear = new Date(data[i].conflictStart).getFullYear();
         if(confstartYear < startConflict){ startConflict=confstartYear};
 
     }
