@@ -29,21 +29,39 @@ h2 {
   src: url(conflicts.woff); }
 header {
   background-color: white;
-  height: 60px;
-  border-bottom: 2px solid black;
-  margin-bottom: 0px; }
-  header h1 {
-    float: left; }
+  min-height: 60px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #000000; }
+  header #mainNav {
+    min-height: 60px;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
   header ul {
-    display: inline-block;
-    float: right; }
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+    header ul h1 {
+      padding: 0;
+      margin: 0; }
     header ul li {
       display: inline-block;
-      list-style: none; }
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 30px;
+      width: 200px; }
       header ul li a {
         margin: 0 25px 0 25px;
         text-decoration: none;
         color: black; }
+    header ul li:nth-child(1) {
+      text-align: right; }
+    header ul li:nth-child(2) {
+      width: 300px; }
+    header ul li:nth-child(3) {
+      text-align: left; }
 
 #selectedItem {
   background-color: #D8CAAB;
@@ -177,7 +195,8 @@ article {
     font-weight: bolder;
     text-align: center; }
   #yearCounter #controls {
-    width: calc(100% - 400px); }
+    width: calc(100% - 400px);
+    padding-top: 10px; }
     #yearCounter #controls span {
       margin-left: 10px;
       margin-right: 10px;

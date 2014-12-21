@@ -32,12 +32,11 @@
 
 
 function getConflictsJSON(){
-	//console.log("In get JSON");
-	xmlhttp=new XMLHttpRequest();
+	var xmlhttp=new XMLHttpRequest(),conflicts;
+
 	xmlhttp.open("GET","http://localhost:3000/src/data/data.json",false);
 	xmlhttp.send();
-    //console.log("suchJSON: "+conflicts);
-	var conflicts = JSON.parse(xmlhttp.responseText);
+	conflicts = JSON.parse(xmlhttp.responseText);
 
 	conflicts.sort(compare);
 	return conflicts;

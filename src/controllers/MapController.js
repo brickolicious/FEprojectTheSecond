@@ -2,8 +2,6 @@ var nsMap = {};
 
 (function(){
     var year;
-    var currentYear = new Date().getFullYear();
-
 
     var MapController = function($scope,$html){
 
@@ -12,20 +10,24 @@ var nsMap = {};
         $scope.yearcount = markers.startConflict;
         $scope.speedSlider = 500;
         $scope.earliestConflictYear = markers.startConflict;
+        $scope.currentYear = new Date().getFullYear();
         //$scope.setStartYear = function(sYear){ console.log('Tetjes: '+sYear);  $scope.yearCount = sYear; };
 
         $scope.start = function(){
             //$scope.yearcount = markers.startConflict;
 
             year = setInterval(function(){
-                if($scope.yearcount < currentYear){
+                if($scope.yearcount < $scope.currentYear){
 
                     setPointsOnMap($scope.yearcount,markers.heatMapMarkerArr);
 
                     $scope.yearcount++;
                     $scope.$apply();
                     //console.log($scope.yearcount);
-                }else{clearInterval(year);}
+                }else{
+                    clearInterval(year);
+                    $scope.yearcount = $scope.earliestConflictYear;
+                }
             },$scope.speedSlider);
         }
 
