@@ -13,11 +13,20 @@
 }
 
 #information{
-  background-color: rgba(216,202,171,0.2);
-  img{
-    max-width: 100%;
-    padding: 10px;
+  margin-top: 10px;
+  //background-color: rgba(216,202,171,0.2);
+  background-color: #FFF;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  p{
+    padding:10px;
+    img{
+      max-width: 100%;
+    }
   }
+
+
 }
 
 

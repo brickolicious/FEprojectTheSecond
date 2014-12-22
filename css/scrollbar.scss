@@ -6,6 +6,9 @@
   background: #F5F5F5;
   overflow-y: scroll;
   margin-bottom: 15px;
+  border: 1px solid #D1D1D1;
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
 }
 
 #scrollStyle::-webkit-scrollbar-track
