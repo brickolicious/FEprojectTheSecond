@@ -18,23 +18,6 @@ h2{
   color:#071E28;
 }
 
-#mainNav{
-  ul{
-    padding-top: 20px;
-    li{
-      font-family: conflicts;
-      span{
-        font-family: 'PT sans';
-      }
-      a:hover{
-        color: #071E28;
-        font-weight: bold;
-      }
-    }
-  }
-}
-
-
 @import 'header';
 @import "timeline";
 @import "details";

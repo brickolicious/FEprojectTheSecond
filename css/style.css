@@ -14,16 +14,6 @@ h2 {
   font-weight: bold;
   color: #071E28; }
 
-#mainNav ul {
-  padding-top: 20px; }
-  #mainNav ul li {
-    font-family: conflicts; }
-    #mainNav ul li span {
-      font-family: 'PT sans'; }
-    #mainNav ul li a:hover {
-      color: #071E28;
-      font-weight: bold; }
-
 @font-face {
   font-family: conflicts;
   src: url(conflicts.woff); }
@@ -40,12 +30,15 @@ header {
     margin: 0; }
   header ul {
     text-align: center;
-    padding: 0;
+    padding-top: 20px;
     margin: 0; }
     header ul h1 {
       padding: 0;
       margin: 0; }
+    header ul span {
+      font-family: 'PT sans'; }
     header ul li {
+      font-family: conflicts;
       display: inline-block;
       list-style: none;
       padding: 0;
@@ -56,6 +49,9 @@ header {
         margin: 0 25px 0 25px;
         text-decoration: none;
         color: black; }
+      header ul li a:hover {
+        color: #071E28;
+        font-weight: bold; }
     header ul li:nth-child(1) {
       text-align: right; }
     header ul li:nth-child(2) {
@@ -63,6 +59,25 @@ header {
     header ul li:nth-child(3) {
       text-align: left; }
 
+@media (max-width: 725px) {
+  #mainNav ul li:nth-child(1) {
+    left: 50px; }
+  #mainNav ul li:nth-last-child(1) {
+    right: 50px; }
+  #mainNav ul li:nth-child(odd) {
+    position: absolute;
+    top: 15px;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto; }
+    #mainNav ul li:nth-child(odd) span {
+      display: none; }
+    #mainNav ul li:nth-child(odd) a {
+      display: block;
+      width: 100%;
+      margin: 0; } }
 #selectedItem {
   background-color: #D8CAAB;
   margin-top: 20px;
@@ -125,6 +140,8 @@ aside {
   font-weight: bold; }
 #details #regimeDetails {
   list-style: none; }
+#details p {
+  padding: 10px; }
 
 #countries li {
   display: inline-block;

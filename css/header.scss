@@ -22,16 +22,20 @@ header{
 
   ul{
     text-align: center;
-    padding: 0;
+    padding-top: 20px;
     margin: 0;
 
     h1{
       padding: 0;
       margin: 0;
     }
+    span{
+      font-family: 'PT sans';
+    }
 
 
     li{
+      font-family: conflicts;
       display: inline-block;
       list-style: none;
       padding: 0;
@@ -42,11 +46,51 @@ header{
         margin:0 25px 0 25px;
         text-decoration: none;
         color: black;
+
       }
+      a:hover{
+        color: #071E28;
+        font-weight: bold;
+      }
+
     }
 
     li:nth-child(1){text-align: right;}
     li:nth-child(2){width:300px;}
     li:nth-child(3){text-align: left;}
+  }
+}
+
+//additional MEDIAQUERIES
+@media (max-width: 725px) {
+  #mainNav{
+    ul{
+      li:nth-child(1){
+        left: 50px;
+      }
+      li:nth-last-child(1){
+        right: 50px;
+      }
+      li:nth-child(odd){
+        position: absolute;
+        top: 15px;
+        //left:20px;
+        font-size: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width:auto;
+        //width:100%;
+        span{
+          display: none;
+
+        }
+        a{
+          display: block;
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
   }
 }
