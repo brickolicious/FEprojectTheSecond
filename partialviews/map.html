@@ -9,12 +9,12 @@
 
                 <span>
                 <label>Speed: {{speedSlider}}ms</label>
-                <input type="range" min="50" max="1000" ng-model="speedSlider" title="play speed"/>
+                <input type="range" min="150" max="1000" ng-model="speedSlider" title="play speed"/>
                 </span>
 
                 <span>
                 <label>Year: {{yearcount}}</label>
-                <input type="range" min="{{earliestConflictYear-5}}" max="{{currentYear}}" ng-model="yearcount" title="set start year"/>
+                <input type="range" min="{{earliestConflictYear-5}}" max="{{currentYear+2}}" ng-model="yearcount" title="set start year"/>
                 </span>
 
                 </section>

@@ -91,7 +91,7 @@
         "weaponName": "Broadsword",
         "weaponDeveloped": "1545-01-01",
         "weaponDescription": "The basket hilt is a development of the quillons added to swords crossguards since the Late Middle Ages. Also known as the broadsword.",
-        "weaponIMG": "broadsword",
+        "weaponIMG": "broadsword.jpg",
         "weaponCountry": {
           "countryID": 236,
           "countryName": "United Kingdom"
@@ -102,7 +102,7 @@
         "weaponName": "Lochaber axe",
         "weaponDeveloped": "1570-01-01",
         "weaponDescription": "The Lochaber axe is a type of halberd. The axe itself is similar to tools used with crops, such as the scythe, which is designed for reaping.",
-        "weaponIMG": "lochaber",
+        "weaponIMG": "Lochaber axe.jpg",
         "weaponCountry": {
           "countryID": 236,
           "countryName": "United Kingdom"
@@ -145,7 +145,7 @@
         "weaponName": "M1860 Cutlass",
         "weaponDeveloped": "1860-01-01",
         "weaponDescription": "Issued to naval boarding parties. Sailors als",
-        "weaponIMG": "cutlass",
+        "weaponIMG": "cutlass.jpg",
         "weaponCountry": {
           "countryID": 237,
           "countryName": "United States"
@@ -156,7 +156,7 @@
         "weaponName": "Model 1832 Foot Artillery Sword",
         "weaponDeveloped": "1832-01-01",
         "weaponDescription": "Issued to artillerymen. Based on the Roman gladius.",
-        "weaponIMG": "1832sword",
+        "weaponIMG": "1832ArtillerySword.jpg",
         "weaponCountry": {
           "countryID": 237,
           "countryName": "United States"
