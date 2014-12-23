@@ -6,10 +6,14 @@
     float: left;
   }
   span{
-    display: block;
+    //display: block;
     font-weight: bold;
   }
 
+}
+.dataspan{
+  display:block;
+  margin-bottom: 5px;
 }
 
 #information{
@@ -25,11 +29,13 @@
       max-width: 100%;
     }
   }
+  ul{
+
+    padding-bottom: 40px;
+  }
 
 
 }
-
-
 
 
 .subnav{
@@ -38,6 +44,8 @@
   padding:20px 0 20px 0;
   margin: 0 auto;
   text-align: justify;
+  border-bottom: 1px solid #D1D1D1;
+
   li{
     width: 32.9%;
     float:left;
@@ -50,6 +58,7 @@
       text-decoration: none;
       font-weight: bold;
       padding: 10px;
+
     }
 
     a:hover{
@@ -57,4 +66,11 @@
       background: rgba(120,120,120,0.3);
     }
   }
+}
+
+.ficon{
+    font-weight: normal;
+    font-family: fontawesome;
+    padding-right: 5px;
+
 }

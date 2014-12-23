@@ -3,6 +3,9 @@
 @font-face {
   font-family: conflicts;
   src: url(conflicts.woff); }
+@font-face {
+  font-family: fontawesome;
+  src: url(fontawesome.woff); }
 * {
   padding: 0;
   margin: 0; }
@@ -79,7 +82,7 @@ header {
       width: 100%;
       margin: 0; } }
 #selectedItem {
-  background-color: #D8CAAB;
+  background-color: #f0ebd2;
   margin-top: 20px;
   color: white;
   height: 85px;
@@ -94,7 +97,8 @@ header {
     padding-bottom: 0;
     margin: 0; }
   #selectedItem span {
-    padding: 5px; }
+    padding: 5px;
+    color: #A68B6A; }
 
 aside {
   margin-top: 10px; }
@@ -171,8 +175,11 @@ aside {
     max-height: 300px;
     float: left; }
   #description span {
-    display: block;
     font-weight: bold; }
+
+.dataspan {
+  display: block;
+  margin-bottom: 5px; }
 
 #information {
   margin-top: 10px;
@@ -184,12 +191,15 @@ aside {
     padding: 10px; }
     #information p img {
       max-width: 100%; }
+  #information ul {
+    padding-bottom: 40px; }
 
 .subnav {
   width: 100%;
   padding: 20px 0 20px 0;
   margin: 0 auto;
-  text-align: justify; }
+  text-align: justify;
+  border-bottom: 1px solid #D1D1D1; }
   .subnav li {
     width: 32.9%;
     float: left;
@@ -204,6 +214,11 @@ aside {
     .subnav li a:hover {
       color: #071E28;
       background: rgba(120, 120, 120, 0.3); }
+
+.ficon {
+  font-weight: normal;
+  font-family: fontawesome;
+  padding-right: 5px; }
 
 #map-canvas {
   height: 100vh;

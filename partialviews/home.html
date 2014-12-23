@@ -29,25 +29,25 @@
 
             <ul ng-init="tab=1" class="subnav">
                 <li ng-class="{active:tab === 1}">
-                    <a href ng-click="tab = 1">Description</a>
+                    <a href ng-click="tab = 1"><span class="ficon">&#xf03e;</span>Description</a>
                 </li>
                 <li ng-class="{active:tab === 2}">
-                    <a href ng-click="tab = 2">Details</a>
+                    <a href ng-click="tab = 2"><span class="ficon">&#xf1ea;</span>Details</a>
                 </li>
                 <li ng-class="{active:tab === 3}">
-                    <a href ng-click="tab = 3">Weapons</a>
+                    <a href ng-click="tab = 3"><span class="ficon">&#xf1e2;</span>Weapons</a>
                 </li>
             </ul>
             <section id="description" ng-show="tab ===1">
             <p>
                 <img src="../images/{{selectedConflict.conflictImgName}}" alt="{{selectedConflict.conflictName}}"/>
-                <span>{{selectedConflict.conflictStart.replace('-','/').replace('-','/')}}
+                <span class="dataspan"><span class="ficon">&#xf073;</span>{{selectedConflict.conflictStart.replace('-','/').replace('-','/')}}
                 -
                     {{selectedConflict.conflictEnd.replace('-','/').replace('-','/')}}
                 </span>
 
-                <span>Wounded: {{selectedConflict.conflictWounded}}</span>
-                <span>Dead:    {{selectedConflict.conflictDead}}</span>
+                <span class="dataspan"><span class="ficon">&#xf0fa;</span>Wounded: {{selectedConflict.conflictWounded}}</span>
+                <span class="dataspan"><span class="ficon">&#xf1ae;</span>Dead: {{selectedConflict.conflictDead}}</span>
 
                 {{selectedConflict.conflictDescription}}
             </p>
