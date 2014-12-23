@@ -70,7 +70,8 @@
             <section id="weapons" ng-show="tab ===3">
                 <div class="weapon" ng-repeat="weapon in selectedConflict.conflictWeapons">
                 <h4>{{weapon.weaponName}}</h4>
-                    <span>Build year: {{weapon.weaponDeveloped|limitTo:4}} in {{weapon.weaponCountry.countryName}}</span>
+                    <span class="dataspan"><span class="ficon">&#xf073;</span>{{weapon.weaponDeveloped|limitTo:4}}</span>
+                    <span class="dataspan"><span class="ficon">&#xF124;</span>{{weapon.weaponCountry.countryName}}</span>
                     <p>
                         <img scr="../images/{{weapon.weaponIMG}}" alt="{{weapon.weaponName}}"/>
                         {{weapon.weaponDescription}}

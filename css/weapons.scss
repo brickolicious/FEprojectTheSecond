@@ -1,25 +1,20 @@
 #weapons{
-
+  margin-top: 15px;
+  margin-left:10px;
   h4{
     font-size: 18px;
     font-weight: bold;
   }
 
   .weapon{
-    display: inline-block;
     float: left;
-    
-
-    span{
-      display: block;
-    }
-    img{
-      float: left;
-      margin-right: 10px;
-      min-height: 50px;
-      max-height: 50px;
-      max-width: 300px;
-    }
+//    img{
+//      float: left;
+//      margin-right: 10px;
+//      min-height: 50px;
+//      max-height: 50px;
+//      max-width: 300px;
+//    }
   }
 
 }
