@@ -8,13 +8,26 @@
 
   .weapon{
     float: left;
-//    img{
-//      float: left;
+    img{
+      float: left;
 //      margin-right: 10px;
 //      min-height: 50px;
-//      max-height: 50px;
-//      max-width: 300px;
-//    }
+//      max-height: 70px;
+        max-width: 300px;
+    }
   }
 
+}
+
+//additional MEDIAQUERIES
+@media (max-width: 550px) {
+  #weapons{
+    .weapon{
+      img{
+        max-width: none;
+        min-width: 100%;
+        width:100%;
+      }
+    }
+  }
 }

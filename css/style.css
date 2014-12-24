@@ -171,7 +171,15 @@ aside {
     font-weight: bold; }
   #weapons .weapon {
     float: left; }
+    #weapons .weapon img {
+      float: left;
+      max-width: 300px; }
 
+@media (max-width: 550px) {
+  #weapons .weapon img {
+    max-width: none;
+    min-width: 100%;
+    width: 100%; } }
 #description {
   margin-top: 15px; }
   #description img {
