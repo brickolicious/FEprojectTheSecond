@@ -225,12 +225,8 @@ aside {
   padding-right: 5px; }
 
 #map-canvas {
-  height: 100vh;
+  height: 85vh;
   width: 100%; }
-
-.one-third {
-  margin: 0;
-  padding: 0; }
 
 .column {
   margin: 0;
@@ -243,46 +239,34 @@ article {
 #yearCounter {
   text-align: center;
   width: 100%;
-  background-color: white;
-  color: #800080;
-  align-items: center; }
+  height: 60px;
+  background-color: #f0ebd2;
+  color: #071E28;
+  align-items: center;
+  padding-top: 15px; }
   #yearCounter section {
-    height: 60px; }
+    width: 33%;
+    float: left; }
   #yearCounter #year {
-    width: 200px;
-    min-height: 50px;
-    float: left;
-    padding-top: 6px;
-    font-size: 24px;
-    background-color: #800080;
-    color: white;
-    font-weight: bolder;
+    font-size: 28px; }
+  #yearCounter #controls span {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
     text-align: center; }
-  #yearCounter #controls {
-    width: calc(100% - 400px);
-    padding-top: 10px; }
-    #yearCounter #controls span {
-      margin-left: 10px;
-      margin-right: 10px;
-      display: inline-block;
-      text-align: center; }
-      #yearCounter #controls span input[type=range] {
-        width: 100%; }
-    #yearCounter #controls label {
-      font-size: 11px; }
+    #yearCounter #controls span input[type=range] {
+      width: 100%; }
+  #yearCounter #controls label {
+    font-size: 11px; }
   #yearCounter #play {
-    width: 200px;
-    height: 100%;
-    float: right; }
-    #yearCounter #play button {
-      background-color: #800080;
-      color: white;
-      height: 60px;
-      width: 100%;
-      font-weight: bold;
-      border: none;
-      border-radius: 0px; }
+    padding-top: 4px; }
 
+@media (max-width: 934px) {
+  #controls {
+    display: none; }
+
+  #yearCounter section {
+    width: 50%; } }
 .scrollbar {
   float: left;
   height: 450px;
