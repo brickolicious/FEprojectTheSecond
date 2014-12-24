@@ -11,22 +11,21 @@ var nsMap = {};
         $scope.speedSlider = 500;
         $scope.earliestConflictYear = markers.startConflict;
         $scope.currentYear = new Date().getFullYear();
-        //$scope.setStartYear = function(sYear){ console.log('Tetjes: '+sYear);  $scope.yearCount = sYear; };
 
         $scope.start = function(){
-            //$scope.yearcount = markers.startConflict;
+            clearInterval(year);
+            $scope.yearcount = $scope.earliestConflictYear;
+
+            //$scope.apply();
 
             year = setInterval(function(){
                 if($scope.yearcount < $scope.currentYear){
-
                     setPointsOnMap($scope.yearcount,markers.heatMapMarkerArr);
-
                     $scope.yearcount++;
                     $scope.$apply();
-                    //console.log($scope.yearcount);
                 }else{
+                    $scope.speedSlider = 500;
                     clearInterval(year);
-                    $scope.yearcount = $scope.earliestConflictYear;
                 }
             },$scope.speedSlider);
         }
