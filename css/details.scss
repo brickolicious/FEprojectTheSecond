@@ -24,10 +24,8 @@
     //margin-right: 8px;
 
   }
-  li::first-letter{
-    font-weight: bold;
-  }
   li:before{
+    display: inline;
     content:", ";
   }
   li:first-child:before{
@@ -38,5 +36,9 @@
   }
   li:only-child:before{
     content:"";
+  }
+  li:first-letter{
+    font-weight: bold;
+    font-size: 2em;
   }
 }

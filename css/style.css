@@ -152,9 +152,8 @@ aside {
 
 #countries li {
   display: inline; }
-#countries li::first-letter {
-  font-weight: bold; }
 #countries li:before {
+  display: inline;
   content: ", "; }
 #countries li:first-child:before {
   content: ""; }
@@ -162,6 +161,9 @@ aside {
   content: " and "; }
 #countries li:only-child:before {
   content: ""; }
+#countries li:first-letter {
+  font-weight: bold;
+  font-size: 2em; }
 
 #weapons {
   margin-top: 15px;
