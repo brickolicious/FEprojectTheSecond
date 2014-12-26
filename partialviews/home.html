@@ -15,7 +15,7 @@
                 <div  class="scrollbar" id="scrollStyle">
                 <div id="timeLine">
                     <ul>
-                        <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)">
+                        <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
                             <h3>{{conflict.conflictName}}</h3>
                             <span>{{conflict.conflictStart | limitTo:4}} - {{conflict.conflictEnd | limitTo:4}}</span>
                         </li>

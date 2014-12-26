@@ -6,7 +6,7 @@
     "use strict";
     //bij aanmaken van app verplicht array meegeven!!! []
     //bij oproepen niet
-    var app = angular.module("app",["ngRoute"]);
+    var app = angular.module("app",["ngRoute","ngAnimate"]);
 
     app.config(function($routeProvider){
         $routeProvider.when("/home",{
