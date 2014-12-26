@@ -72,15 +72,27 @@ function initialize() {
 
 function createMarkers(){
 
-    var xmlhttp=new XMLHttpRequest();
-    xmlhttp.open("GET","http://localhost:3000/src/data/data.json",false);
-    xmlhttp.send();
-    var data = JSON.parse(xmlhttp.responseText),
-        startConflict = 3000,
+    var startConflict = 3000,
         confstartYear,
         heatMapMarkerArr =[],
         i= 0,
-        length=data.length;
+        length,
+        data;
+
+    try {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", "http://localhost:3000/src/data/data.json", false);
+        xmlhttp.send();
+        data = JSON.parse(xmlhttp.responseText);
+        length = data.length;
+        localStorage.setItem('timeLapseConflict',JSON.stringify(data));
+
+    }catch(exception){
+        console.log("Map data not able to load.");
+        data = JSON.parse(localStorage.getItem('timeLapseConflict'));
+        length = data.length;
+    }
+
 
 
 

@@ -32,6 +32,8 @@
 
 
 function getConflictsJSON(){
+
+    try{
 	var xmlhttp=new XMLHttpRequest(),conflicts;
 
 	xmlhttp.open("GET","http://localhost:3000/src/data/data.json",false);
@@ -39,7 +41,16 @@ function getConflictsJSON(){
 	conflicts = JSON.parse(xmlhttp.responseText);
 
 	conflicts.sort(compare);
-	return conflicts;
+    localStorage.setItem('conflicts',JSON.stringify(conflicts));
+
+    return conflicts;
+    }
+    catch(exception){
+        console.log("No xmlhttprequest possible.");
+        console.log("Yolo conflicts: "+conflicts);
+        return conflicts;
+    }
+
 }
 
 function compare(a,b) {
