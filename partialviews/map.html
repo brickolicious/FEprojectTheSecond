@@ -7,17 +7,17 @@
 
                     <span>
                         <label>Speed: {{speedSlider}}ms</label>
-                        <input type="range" min="150" max="1000" ng-model="speedSlider" title="play speed"/>
+                        <input type="range" min="150" max="1000" data-ng-model="speedSlider" title="play speed"/>
                     </span>
                     <span>
                         <label>Year: {{yearcount}}</label>
-                        <input type="range" min="{{earliestConflictYear-5}}" max="{{currentYear+2}}" ng-model="yearcount" title="set start year"/>
+                        <input type="range" min="{{earliestConflictYear-5}}" max="{{currentYear+2}}" data-ng-model="yearcount" title="set start year"/>
                     </span>
 
                 </section>
 
                 <section id="play" >
-                    <button  ng-click="start()"><span class="ficon">&#xf04b;</span>Start</button>
+                    <button  data-ng-click="start()"><span class="ficon">&#xf04b;</span>Start</button>
                 </section>
 
         </article>

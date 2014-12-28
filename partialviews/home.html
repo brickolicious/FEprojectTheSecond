@@ -4,7 +4,7 @@
         <aside class="three columns">
             <div class="row">
                 <section>
-                    <input type="text" placeholder="Search conflict" id="search" ng-model="filterString" ng-change="listFilter()"/>
+                    <input type="text" placeholder="Search conflict" id="search" data-ng-model="filterString" data-ng-change="listFilter()"/>
                     <span id="itemCount">Number of conflicts: {{conflicts.length}}</span>
                 </section>
 
@@ -15,7 +15,7 @@
                 <div  class="scrollbar" id="scrollStyle">
                 <div id="timeLine">
                     <ul>
-                        <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)" class="ng-animate ng-enter ng-enter-active">
+                        <li data-ng-repeat="conflict in conflicts" data-ng-click="setHighlight(conflict)" class="ng-animate ng-enter ng-enter-active">
                             <h3>{{conflict.conflictName}}</h3>
                             <span>{{conflict.conflictStart | limitTo:4}} - {{conflict.conflictEnd | limitTo:4}}</span>
                         </li>
@@ -23,22 +23,22 @@
                 </div>
                 </div>
             </div>
-            <span id="copy">&copy Bart VDC - Roderik I</span>
+            <span id="copy">&copy; Bart VDC - Roderik I</span>
         </aside>
         <article id="information" class="nine columns">
 
-            <ul ng-init="tab=1" class="subnav">
-                <li ng-class="{active:tab === 1}">
-                    <a href ng-click="tab = 1"><span class="ficon">&#xf03e;</span>Description</a>
+            <ul data-ng-init="tab=1" class="subnav">
+                <li data-ng-class="{active:tab === 1}">
+                    <a href data-ng-click="tab = 1"><span class="ficon">&#xf03e;</span>Description</a>
                 </li>
-                <li ng-class="{active:tab === 2}">
-                    <a href ng-click="tab = 2"><span class="ficon">&#xf1ea;</span>Details</a>
+                <li data-ng-class="{active:tab === 2}">
+                    <a href data-ng-click="tab = 2"><span class="ficon">&#xf1ea;</span>Details</a>
                 </li>
-                <li ng-class="{active:tab === 3}">
-                    <a href ng-click="tab = 3"><span class="ficon">&#xf1e2;</span>Weapons</a>
+                <li data-ng-class="{active:tab === 3}">
+                    <a href data-ng-click="tab = 3"><span class="ficon">&#xf1e2;</span>Weapons</a>
                 </li>
             </ul>
-            <section id="description" ng-show="tab ===1">
+            <section id="description" data-ng-show="tab ===1">
             <p>
                 <img src="../images/{{selectedConflict.conflictImgName}}" alt="{{selectedConflict.conflictName}}"/>
                 <span class="dataspan"><span class="ficon">&#xf073;</span>{{selectedConflict.conflictStart.replace('-','/').replace('-','/')}}
@@ -54,10 +54,10 @@
 
             </section>
 
-            <section id="details" ng-show="tab ===2">
+            <section id="details" data-ng-show="tab ===2">
                 <h4>Involved countries:</h4>
                 <ul id="countries">
-                    <li ng-repeat="country in selectedConflict.conflictCountries"><span>{{country.countryName}}</span></li>
+                    <li data-ng-repeat="country in selectedConflict.conflictCountries"><span>{{country.countryName}}</span></li>
                 </ul>
                 <h4>Regime</h4>
                 <ul id="regimeDetails">
@@ -67,8 +67,8 @@
                 </ul>
             </section>
 
-            <section id="weapons" ng-show="tab ===3">
-                <div class="weapon" ng-repeat="weapon in selectedConflict.conflictWeapons">
+            <section id="weapons" data-ng-show="tab ===3">
+                <div class="weapon" data-ng-repeat="weapon in selectedConflict.conflictWeapons">
                 <h4>{{weapon.weaponName}}</h4>
                     <span class="dataspan"><span class="ficon">&#xf073;</span>{{weapon.weaponDeveloped|limitTo:4}}</span>
                     <span class="dataspan"><span class="ficon">&#xF124;</span>{{weapon.weaponCountry.countryName}}</span>
