@@ -21,7 +21,7 @@ h2{
   font-weight: bold;
   color:#071E28;
 }
-
+@import "animate.css";
 @import 'header';
 @import "timeline";
 @import "details";
@@ -33,3 +33,13 @@ h2{
 @import "scrollbar";
 @import "animation";
 
+#countries li span {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+
+#countries li span:first-letter {
+  font-weight: bold;
+}

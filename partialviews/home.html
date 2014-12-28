@@ -15,7 +15,7 @@
                 <div  class="scrollbar" id="scrollStyle">
                 <div id="timeLine">
                     <ul>
-                        <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+                        <li ng-repeat="conflict in conflicts" ng-click="setHighlight(conflict)" class="ng-animate ng-enter ng-enter-active">
                             <h3>{{conflict.conflictName}}</h3>
                             <span>{{conflict.conflictStart | limitTo:4}} - {{conflict.conflictEnd | limitTo:4}}</span>
                         </li>
@@ -57,12 +57,12 @@
             <section id="details" ng-show="tab ===2">
                 <h4>Involved countries:</h4>
                 <ul id="countries">
-                    <li ng-repeat="country in selectedConflict.conflictCountries">{{country.countryName}}</li>
+                    <li ng-repeat="country in selectedConflict.conflictCountries"><span>{{country.countryName}}</span></li>
                 </ul>
                 <h4>Regime</h4>
                 <ul id="regimeDetails">
-                    <li>{{selectedConflict.conflictRegime.regimeName}}</li>
-                    <li>{{selectedConflict.conflictRegime.regimeLeader}}</li>
+                    <li>Name: {{selectedConflict.conflictRegime.regimeName}}</li>
+                    <li>Leader: {{selectedConflict.conflictRegime.regimeLeader}}</li>
                     <li>{{selectedConflict.conflictRegime.regimeDescription}}</li>
                 </ul>
             </section>

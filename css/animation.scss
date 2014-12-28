@@ -1,25 +1,15 @@
-.animate-enter,
-.animate-leave
-{
-  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-  -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-  -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-  -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-  transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
-  position: relative;
-  display: block;
-}
 
-.animate-enter.animate-enter-active,
-.animate-leave {
-  opacity: 1;
-  top: 0;
-  height: 30px;
-}
+$liSpeed: 250ms;
 
-.animate-leave.animate-leave-active,
-.animate-enter {
-  opacity: 0;
-  top: -50px;
-  height: 0px;
+#timeLine li.ng-enter {
+  -webkit-animation: fadeInLeft $liSpeed;
+  -moz-animation: fadeInLeft $liSpeed;
+  -ms-animation: fadeInLeft $liSpeed;
+  animation: fadeInLeft $liSpeed;
+}
+#timeLine li.ng-leave {
+  -webkit-animation: fadeOutLeft $liSpeed;
+  -moz-animation: fadeOutLeft $liSpeed;
+  -ms-animation: fadeOutLeft $liSpeed;
+  animation: fadeOutLeft $liSpeed;
 }
