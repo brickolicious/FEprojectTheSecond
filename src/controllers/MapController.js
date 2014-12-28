@@ -37,16 +37,16 @@ var nsMap = {};
 })();
 
 function initialize() {
-    var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+    var myLatlng = new google.maps.LatLng(-25.363882,131.044922),mapOptions,map,marker;
     var style = [{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#00ff88"},{"lightness":14},{"color":"#667348"},{"saturation":4},{"gamma":1.14}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"color":"#313916"},{"weight":0.8}]},{"featureType":"road","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.icon","stylers":[{"visibility":"simplified"},{"color":"#334b1f"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"simplified"}]}];
     var styledMap = new google.maps.StyledMapType(style, {name:"Styled Map"});
-    var map;
+
     navigator.geolocation.getCurrentPosition(success,navError);
     function navError(){ console.log("No nav available.");}
     function success(pos) {
 
         myLatlng = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
-        var mapOptions = {
+        mapOptions = {
             zoom: 2,
             center: new google.maps.LatLng(0, myLatlng.lng()),
             mapTypeControlOptions: {
@@ -57,7 +57,7 @@ function initialize() {
 
         map.mapTypes.set('map_style', styledMap);
         map.setMapTypeId('map_style');
-        var marker = new google.maps.Marker({
+        marker = new google.maps.Marker({
             position: myLatlng, title:"My location!"
         });
 

@@ -47,7 +47,6 @@ function getConflictsJSON(){
     }
     catch(exception){
         console.log("No xmlhttprequest possible.");
-        console.log("Yolo conflicts: "+conflicts);
         return conflicts;
     }
 
