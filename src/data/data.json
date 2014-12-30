@@ -763,7 +763,7 @@
         ],
         "conflictWeapons": [
             {
-                "weaponID": 1,
+                "weaponID": 456,
                 "weaponName": "R-3S missiles",
                 "weaponDeveloped": "1960-01-01",
                 "weaponDescription": "The R-3S was the first version to enter widespread production, in spite of a very long seeker settling time on the order of 22 seconds (as opposed to 11 for the original).",

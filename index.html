@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html data-ng-app="app">
+<html  manifest="manifest.appcache" data-ng-app="app">
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, user-scalable=no">
-    <title>conflicts</title>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <meta name="description" content="Information about conflicts all over the world.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Bart Vandecandelaere & Roderik Iserbyt">
+
     <link rel="icon" href="./images/icons/map.ico"/>
-    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
-    <script src="./scripts/modernizr-2.7.2.js"></script>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=PT+Sans'>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script type="text/javascript" src="./scripts/modernizr-2.7.2.js"></script>
+
+    <title>conflicts</title>
 </head>
 <body>
-
-
-
-
 
 <header>
 
 <nav id="mainNav">
     <ul>
-        <li><a href="#/home">&#xe801; <span>Information</span></a></li>
+        <li><a href="#/home" name="home">&#xe801; <span>Information</span></a></li>
         <li><h1>IN TIME OF WAR</h1></li>
-        <li><a href="#/map">&#xe800; <span>Map</span></a></li>
+        <li><a href="#/map" name="origin of conflicts map">&#xe800; <span>Map</span></a></li>
     </ul>
 </nav>
 </header>
 
 <div data-ng-view></div>
-
 
 <script type="application/javascript" src="./scripts/angular.min.js"></script>
 <script type="application/javascript" src="./scripts/ui-bootstrap-tpls-0.12.0.min.js"></script>
@@ -36,6 +36,6 @@
 <script type="application/javascript" src="./src/app.js"></script>
 <script type="application/javascript" src="./src/controllers/HomeController.js"></script>
 <script type="application/javascript" src="./src/controllers/MapController.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
 </body>
 </html>

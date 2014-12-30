@@ -5,7 +5,6 @@
     var allConflicts = getConflictsJSON();
 
     var HomeController = function($scope,$html){
-        //addSideScrollToTimeLine();
         $scope.conflicts = allConflicts;
 
         $scope.filterString="";
@@ -23,7 +22,6 @@
         $scope.selectTab = function (setTab){$scope.tab = setTab;};
         $scope.isSelected = function(checkTab) {return $scope.tab === checkTab;};
 
-
     };
     var app = angular.module("app");
     app.controller("HomeController",["$scope","$http","$log",HomeController]);
@@ -35,8 +33,7 @@ function getConflictsJSON(){
 
     try{
 	var xmlhttp=new XMLHttpRequest(),conflicts;
-
-	xmlhttp.open("GET","http://localhost:3000/src/data/data.json",false);
+    xmlhttp.open("GET","http://"+window.location.hostname+":3000/src/data/data.json",false);
 	xmlhttp.send();
 	conflicts = JSON.parse(xmlhttp.responseText);
 
@@ -47,7 +44,7 @@ function getConflictsJSON(){
     }
     catch(exception){
         console.log("No xmlhttprequest possible.");
-        return conflicts;
+        return localStorage.getItem('conflicts');
     }
 
 }

@@ -81,7 +81,7 @@ function createMarkers(){
 
     try {
         var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open("GET", "http://localhost:3000/src/data/data.json", false);
+        xmlhttp.open("GET","http://"+window.location.hostname+":3000/src/data/data.json",false);
         xmlhttp.send();
         data = JSON.parse(xmlhttp.responseText);
         length = data.length;
